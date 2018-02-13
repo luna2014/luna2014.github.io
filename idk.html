@@ -1,1 +1,101 @@
-<h1>hi</h1>
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("https://s-media-cache-ak0.pinimg.com/originals/bf/f5/0a/bff50a87568783af69b598bc03bc200c.jpg");
+      background-size: cover;
+      colorblack ;
+      font-family:Papyrus
+    }
+    img{
+      width:300;
+      border-radius:10;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    h2{
+      font-family:impact;
+      color: #006A4E;
+    }
+    p{
+      font-family: papyrus;
+      color: #9F2B68;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(50,100,10,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    } 
+    body {
+      background:#7CB9E8;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 38px;
+        padding: 5px;
+        
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      
+      
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.pinimg.com/736x/ab/5d/53/ab5d534cfbbeb1ab531deba6f97a956c--funny-music-music-humor.jpg">
+    
+  
+    <h1>Music Blog</h1>
+    <ul>
+      <li><a href="http://blog.hostbaby.com/wp-content/uploads/2017/06/martyHB.jpg" target="_blank">Upcoming shows</a></li>
+      <li><a href="http://www.funnybeing.com/wp-content/uploads/2017/03/Pop-Music.jpg" target="_blank">Music Memes</a></li>
+      <li><a href="https://az616578.vo.msecnd.net/files/2016/09/18/6360982890869125152065016353_genre%20mood%20board.png" target="_blank">Trendy Music</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Ed Sheraan</h2>
+    <p> The fire headed wonder has taken over the music sceen. Some of his best alubums being Multiply Add and his new album Divide. With big hits such a Perfect and Castle on the hill. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Fall Out Boy</h2>
+    <p> They have a new album its dope its called MANIA. I went to the concert. It was fun. some of my personal favorite songs are hotel in NYC and Alone Together. If you dont know who they are get off my website. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Panic! At The Disco</h2>
+    <p> A band that has truley been around since the beging of the music days. they have amazing hits such as death of a bachelor, dont threthen me with a good time and so much more.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Thanks for like this story to see more check out more aspects of the blog!");
+    });
+  </script>
+</body>
+
+
